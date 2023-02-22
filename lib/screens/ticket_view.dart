@@ -104,7 +104,7 @@ class TicketView extends StatelessWidget {
                   ),
                   Expanded(child: Padding(
                     padding: const EdgeInsets.all(12.0),
-                    child: AppLayoutBuilderWidget(sections: 6,),
+                    child: AppLayoutBuilderWidget(sections: 6, isColor: false,),
                   )),
                   SizedBox(
                     height: AppLayout.getHeight(20),
